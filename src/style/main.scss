@@ -1,28 +1,34 @@
-html {
-    font-size: 62.5%; // 1rem is 10px
+$bottegaGreen: #00cb79;
+$clearBlue: #45b0e5;
+$mainGray: #cfcfcf;
+$darkGray: #444444;
+$font-primary: "Montserrat", sans-serif;
+
+.backgroundSkew {
+  width: 100vw;
+  height: 700px;
+  background-color: $darkGray;
+  transform: skewY(-10deg);
+  margin-top: -17rem;
+  padding-top: 17rem;
+  border-bottom: 1rem solid $bottegaGreen;
 }
 
-*,
-*::after,
-*::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
-    font-family: 'montserrat';
+.backgroundSkew > * {
+  transform: skewY(10deg);
 }
 
-body {
-    overflow-x: hidden;
-    font-weight: normal;
-
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeLegibility;
-    -webkit-tap-highlight-color: transparent;
+.madlib-heading {
+  text-align: center;
+  margin: 20px;
+  padding-top: 46px;
+  color: white;
+  font-weight: 700;
+  font-family: $font-primary;
 }
 
-.app {
-    margin-top: 2rem;
-    display: grid;
-    justify-items: center;
+.madlib-subheading {
+  margin-bottom: 46px;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 15px;
 }
