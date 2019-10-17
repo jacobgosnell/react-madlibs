@@ -1,0 +1,28 @@
+.backgroundSkew {
+  width: 100vw;
+  height: 700px;
+  background-color: $darkGray;
+  transform: skewY(-10deg);
+  margin-top: -17rem;
+  padding-top: 17rem;
+  border-bottom: 1rem solid $bottegaGreen;
+}
+
+.backgroundSkew > * {
+  transform: skewY(10deg);
+}
+
+.madlib-heading {
+  text-align: center;
+  margin: 20px;
+  padding-top: 46px;
+  color: white;
+  font-weight: 700;
+  font-family: $font-primary;
+}
+
+.madlib-subheading {
+  margin-bottom: 46px;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 15px;
+}

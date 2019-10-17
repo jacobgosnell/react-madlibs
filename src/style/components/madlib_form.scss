@@ -1,0 +1,44 @@
+.card-wrapper {
+  border-radius: 10px;
+  align-items: center;
+  position: static;
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  width: 86vw;
+  border-radius: 7px;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.75);
+  padding: 50px 80px;
+}
+
+.input-wrapper {
+  margin: 36px 0px;
+}
+
+input {
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 1px solid $mainGray;
+  text-align: center;
+  font-weight: 500;
+  width: 100%;
+}
+
+.input-description {
+  color: #b3b3b3;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.green-label {
+  background-color: $bottegaGreen;
+  border-radius: 100px;
+  width: 26px;
+  height: 26px;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+}
